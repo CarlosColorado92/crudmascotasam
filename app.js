@@ -25,3 +25,7 @@ app.use((req, res, next)=>{
 app.listen(port, () => {
   console.log(`Ejemplo aplicación Node con Express escuchando en puerto ${port}`);
 })
+
+app.listen(port, () => {
+  console.log(`Ejemplo aplicación Node con Express escuchando en puerto ${port}`);
+})
